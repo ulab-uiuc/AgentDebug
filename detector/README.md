@@ -67,27 +67,6 @@ The detector achieves high accuracy in identifying critical failure points:
 - Comprehensive error coverage
 - Module-specific accuracy metrics
 
-## Citation
-
-If you use this detector in your research, please cite:
-
-```
-@software{agentdebug2024,
-  author = {m-serious},
-  title = {AgentDebug: A Comprehensive Error Detection Framework},
-  year = {2024},
-  url = {https://github.com/ulab-uiuc/AgentDebug}
-}
-```
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributing
-
-Contributions are welcome! Please submit pull requests or open issues for bug reports and feature requests.
-
 ## Contact
 
 For questions and support, please open an issue on the GitHub repository.
