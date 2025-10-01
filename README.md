@@ -1,4 +1,4 @@
-# AgentDebug 🔍🤖
+# Where LLM Agents Fail and How They can Learn From Failures 🔍🤖
 
 <div align="center">
   <img src="assets/logo.png" alt="AgentDebug Logo" width="400"/>
@@ -120,11 +120,11 @@ AgentDebug achieves state-of-the-art performance in error detection and recovery
 If you use AgentDebug in your research, please cite our paper:
 
 ```bibtex
-@article{agentdebug2024,
+@article{agentdebug2025,
   title={Where LLM Agents Fail and How They Can Learn From Failures},
-  author={Author Names},
+  author={Zhu, Kunlun and Liu, Zijia and Li, Bingxuan and Tian, Muxin and Yang Yingxuan and Zhang, Jiaxun and others},
   journal={arXiv preprint arXiv:2509.25370},
-  year={2024}
+  year={2025}
 }
 ```
 
@@ -135,13 +135,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, create pull requests, or reach out for collaborations.
-
-## 📧 Contact
-
-For questions and support, please open an issue on this repository.
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by the ULAB team at UIUC</sub>
-</div>
