@@ -1,5 +1,3 @@
-# Where LLM Agents Fail and How They can Learn From Failures 🔍🤖
-
 <div align="center">
   <img src="assets/logo.png" alt="AgentDebug Logo" width="400"/>
 
@@ -9,6 +7,9 @@
   [![Dataset](https://img.shields.io/badge/Dataset-AgentErrorBench-blue.svg)](https://drive.google.com/drive/folders/1bQe6dQA85pktT63YnKIKJDTVaH3O3Vpu?usp=drive_link)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 </div>
+
+# Where LLM Agents Fail and How They can Learn From Failures
+
 
 ## 📊 AgentErrorBench Dataset
 
