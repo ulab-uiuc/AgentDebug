@@ -59,12 +59,13 @@ AgentDebug/
 ├── detector/              # Core detection and analysis framework
 │   ├── fine_grained_analysis.py    # Stage 1: Step-level error detection
 │   ├── critical_error_detection.py # Stage 2: Critical failure identification
-│   ├── error_definitions.py        # Comprehensive error taxonomy
-│   └── AgentErrorBench/           # Benchmark dataset structure
-│       ├── Label/                  # Annotated error labels
-│       └── Original_Failure_Trajectory/ # Raw agent trajectories
+│   └── error_definitions.py        # Comprehensive error taxonomy
+├── assets/                # Project resources
+│   └── logo.png          # AgentDebug logo
 └── README.md
 ```
+
+**Note:** The AgentErrorBench dataset is hosted on Google Drive due to its size. Download it from the link above.
 
 ## 🔧 Installation
 
