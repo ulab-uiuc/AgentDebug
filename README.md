@@ -41,11 +41,11 @@ export TOGETHER_API_KEY="..."       # optional
 
 ```
 AgentDebug/
+├── detector/                  # Core error detection framework
+│   ├── fine_grained_analysis.py    # Phase 1: step-level per-module error detection
+│   ├── critical_error_detection.py # Phase 2: critical error identification
+│   └── error_definitions.py        # Error taxonomy (5 modules, 17 types)
 ├── agentdebug/
-│   ├── detector/              # Core error detection framework
-│   │   ├── fine_grained_analysis.py    # Phase 1: step-level per-module error detection
-│   │   └── critical_error_detection.py # Phase 2: critical error identification
-│   ├── taxonomy/              # Error type definitions (5 modules, 17 types)
 │   ├── engines/               # Multi-provider LLM abstraction
 │   │   ├── openai.py          # OpenAI (GPT-4o, GPT-4.1, etc.)
 │   │   ├── anthropic.py       # Anthropic (Claude)
@@ -58,7 +58,6 @@ AgentDebug/
 │   └── rollout/               # Trajectory collection
 │       ├── rollout.py         # Unified rollout across all environments
 │       └── step_to_episode.py # Step-level → episode-level conversion
-├── detector/                  # Original detector (standalone, no dependencies)
 ├── examples/                  # Sample data and demo scripts
 └── docs/                      # Documentation
 ```
